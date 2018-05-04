@@ -40,7 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Functor.cs" />
+    <Compile Include="Interface\ISequenceGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SequenceGenerator.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
