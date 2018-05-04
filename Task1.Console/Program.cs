@@ -19,6 +19,11 @@ namespace Task1.Console
             IRepository repository = new SqlRepository();
 
             IPasswordChecker passwordChecker = new PasswordCheckerSevice(repository);
+
+            var tulpe = passwordChecker.VerifyPassword("abc12345dnek", user);
+
+            System.Console.WriteLine(tulpe.Item2);
+            System.Console.ReadLine();
         }
     }
 }
