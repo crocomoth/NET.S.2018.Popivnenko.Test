@@ -40,7 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interface\IObservable.cs" />
+    <Compile Include="Interface\IObserver.cs" />
+    <Compile Include="Observables\Bank.cs" />
+    <Compile Include="Observables\Broker.cs" />
+    <Compile Include="Observable\Stock.cs" />
+    <Compile Include="Observable\StockInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
